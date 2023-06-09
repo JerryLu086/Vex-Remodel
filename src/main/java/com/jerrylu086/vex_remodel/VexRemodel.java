@@ -33,7 +33,8 @@ public class VexRemodel {
 
     public static final ModelLayerLocation VEX_ALT_LAYER = new ModelLayerLocation(new ResourceLocation("vex_alt"), "main");
 
-    public void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+    @OnlyIn(Dist.CLIENT)
+    private void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(VEX_ALT_LAYER, VexAltModel::createBodyLayer);
     }
 
