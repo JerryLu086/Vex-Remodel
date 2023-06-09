@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
     modId="vex_remodel"
-    version="1.0.0-1.19"
+    version="1.19-1.0.0"
     displayName="Vex Remodel"
     logoFile="icon.png"
     authors="jerrylu086"
