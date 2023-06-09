@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT License"
+
+[[mods]]
+    modId="vex_remodel"
+    version="1.0.0-1.19"
+    displayName="Vex Remodel"
+    logoFile="icon.png"
+    authors="jerrylu086"
+    description=""
+    itemIcon=""
+
+[[dependencies.vex_remodel]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.vex_remodel]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.19.3)"
+    ordering="NONE"
+    side="CLIENT"
